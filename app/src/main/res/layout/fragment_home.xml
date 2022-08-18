@@ -147,6 +147,7 @@
                             android:layout_height="wrap_content"
                             android:layout_below="@id/img1"
                             android:gravity="center"
+                            android:textColor="@color/black"
                             android:text="@string/oppo_reno_8_pro_5g"
                             android:textSize="15sp"
                             android:textStyle="bold" />
@@ -158,6 +159,7 @@
                             android:layout_height="match_parent"
                             android:layout_below="@id/name"
                             android:gravity="center"
+                            android:textColor="@color/black"
                             android:text="@string/rs_45_999"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -197,6 +199,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_below="@id/img2"
                                 android:gravity="center"
+                                android:textColor="@color/black"
                                 android:text="@string/one_plus_nord_2t_5g"
                                 android:textSize="12sp"
                                 android:textStyle="bold" />
@@ -209,6 +212,7 @@
                                 android:layout_below="@id/name2"
                                 android:text="@string/rs_28_859"
                                 android:textStyle="bold"
+                                android:textColor="@color/black"
                                 android:gravity="center"
                                 android:textSize="10sp"/>
 
@@ -240,6 +244,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_below="@id/img3"
                                 android:gravity="center"
+                                android:textColor="@color/black"
                                 android:text="@string/apple_iphone_12"
                                 android:textSize="12sp"
                                 android:textStyle="bold" />
@@ -250,6 +255,7 @@
                                 android:layout_height="match_parent"
                                 android:layout_below="@id/name3"
                                 android:text="@string/rs_59_999"
+                                android:textColor="@color/black"
                                 android:textStyle="bold"
                                 android:gravity="center"
                                 android:textSize="10sp"/>
