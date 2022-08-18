@@ -10,3 +10,10 @@ You're welcome to contribute. Let's make sure the quality of app is great.
 <br>
 
 <h1>Learn with me If you want to 😊</h1>
+
+<h3> Some Screenshots of how my App looks </h3>
+<img src="Downloads\ss1" height="500" alt="ss1"></a>
+<img src="https://thetechtian.com/wp-content/uploads/2022/03/Best-Architecture-Apps-for-Android.jpg" height="500" alt="ss2"></a>
+<img src="https://thetechtian.com/wp-content/uploads/2022/03/Best-Architecture-Apps-for-Android.jpg" height="500" alt="ss3"></a>
+<img src="https://thetechtian.com/wp-content/uploads/2022/03/Best-Architecture-Apps-for-Android.jpg" height="500" alt="ss4"></a>
+<img src="https://thetechtian.com/wp-content/uploads/2022/03/Best-Architecture-Apps-for-Android.jpg" height="500" alt="ss5"></a>
