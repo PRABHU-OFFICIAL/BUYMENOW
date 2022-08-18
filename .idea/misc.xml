@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/litup/AndroidStudioProjects/app/src/main/res/drawable/circleimage.xml" value="0.1915" />
+        <entry key="..\:/Users/litup/AndroidStudioProjects/app/src/main/res/drawable/gradient_shap.xml" value="0.1915" />
+        <entry key="..\:/Users/litup/AndroidStudioProjects/app/src/main/res/drawable/ic_baseline_logout_24.xml" value="0.1915" />
+        <entry key="..\:/Users/litup/AndroidStudioProjects/app/src/main/res/layout/activity_cart.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/litup/AndroidStudioProjects/app/src/main/res/layout/activity_detailed.xml" value="0.2" />
+        <entry key="..\:/Users/litup/AndroidStudioProjects/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/litup/AndroidStudioProjects/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/litup/AndroidStudioProjects/app/src/main/res/layout/activity_payment.xml" value="0.25" />
+        <entry key="..\:/Users/litup/AndroidStudioProjects/app/src/main/res/layout/activity_payment_success.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/litup/AndroidStudioProjects/app/src/main/res/layout/activity_register.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/litup/AndroidStudioProjects/app/src/main/res/layout/activity_splash_screen.xml" value="0.264" />
+        <entry key="..\:/Users/litup/AndroidStudioProjects/app/src/main/res/layout/activity_welcome.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/litup/AndroidStudioProjects/app/src/main/res/layout/cart_items.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/litup/AndroidStudioProjects/app/src/main/res/layout/category_list.xml" value="0.253125" />
+        <entry key="..\:/Users/litup/AndroidStudioProjects/app/src/main/res/layout/fragment_cart.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/litup/AndroidStudioProjects/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/litup/AndroidStudioProjects/app/src/main/res/layout/fragment_notification.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/litup/AndroidStudioProjects/app/src/main/res/layout/fragment_settings.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/litup/AndroidStudioProjects/app/src/main/res/layout/my_cart.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/litup/AndroidStudioProjects/app/src/main/res/layout/popular_list.xml" value="0.25" />
+        <entry key="..\:/Users/litup/AndroidStudioProjects/app/src/main/res/menu/nav_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/litup/AndroidStudioProjects/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1915" />
+        <entry key="..\:/Users/litup/AndroidStudioProjects/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1915" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

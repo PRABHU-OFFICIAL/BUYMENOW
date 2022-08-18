@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navHome"
+        android:title="@string/home"
+        android:icon="@drawable/ic_outline_home_24"
+        app:cnb_iconColor="#00CCFF"
+        />
+
+    <item
+        android:id="@+id/navCart"
+        android:title="@string/cart"
+        android:icon="@drawable/ic_outline_shopping_cart_24"
+        app:cnb_iconColor="#D50000"
+        />
+
+    <item
+        android:id="@+id/navSetting"
+        android:title="@string/settings"
+        android:icon="@drawable/ic_baseline_person_outline_24"
+        app:cnb_iconColor="#81FF02"
+        />
+
+</menu>

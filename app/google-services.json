@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "464651751548",
+    "project_id": "buymenow-468e2",
+    "storage_bucket": "buymenow-468e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464651751548:android:3d081a9d9e1c9423d2f9f9",
+        "android_client_info": {
+          "package_name": "com.example.buymenow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "464651751548-bkp57i7ucvnnhdgnd48rp152nqlqhpd8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAa5o2Bf8jSjmMP1VucSgVTvxn_h0kE6KM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "464651751548-bkp57i7ucvnnhdgnd48rp152nqlqhpd8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

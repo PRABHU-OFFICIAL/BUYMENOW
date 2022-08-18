@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.PaymentActivity"
+    android:padding="30dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="@string/payment_section"
+        android:id="@+id/lottie_layer_name"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff003d"
+        android:textStyle="bold"
+        android:fontFamily="@font/aclonica"/>
+
+    <ImageView
+        android:id="@+id/card"
+        android:layout_width="340dp"
+        android:layout_below="@id/lottie_layer_name"
+        android:layout_height="244dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/card_prev"/>
+
+    <TextView
+        android:id="@+id/subTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subtotal"
+        android:layout_marginStart="30dp"
+        android:textSize="20sp"
+        android:textColor="#ff003d"
+        android:textStyle="bold"
+        android:layout_below="@id/card"
+        />
+
+    <TextView
+        android:id="@+id/discount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subTotal"
+        android:text="@string/discount"
+        android:layout_marginStart="30dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#ff003d"
+         />
+
+    <TextView
+        android:id="@+id/shipping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/shipping"
+        android:layout_marginStart="30dp"
+        android:textSize="20sp"
+        android:textColor="#ff003d"
+        android:textStyle="bold"
+        android:layout_below="@id/discount" />
+
+    <TextView
+        android:id="@+id/sub_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/card"
+        android:layout_alignParentEnd="true"
+        android:textStyle="bold"
+        android:layout_marginEnd="20dp"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/dis_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sub_total"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:text="0"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/ship_ping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dis_count"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:text="0"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="430dp"
+        android:layout_height="2dp"
+        android:layout_below="@id/ship_ping"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/black" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider"
+        android:text="Total : "
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="30dp"
+        android:textStyle="bold"
+        android:textColor="#ff003d"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_below="@id/divider"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:text="0"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnPay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/amount"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="#ff003d"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/check_out"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+</RelativeLayout>
