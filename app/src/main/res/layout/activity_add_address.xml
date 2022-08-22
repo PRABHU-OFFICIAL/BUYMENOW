@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.AddAddressActivity">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/create_address"
+        android:textColor="#ff003d"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout3"
+        android:layout_below="@id/textView8"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="300dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="40dp"
+        android:hint="Name"
+        android:layout_centerHorizontal="true">
+
+        <EditText
+            android:id="@+id/ad_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout4"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="300dp"
+        android:layout_below="@+id/textInputLayout3"
+        android:layout_height="64dp"
+        android:layout_marginTop="10dp"
+        android:hint="Address Lane"
+        android:layout_centerHorizontal="true">
+
+        <EditText
+            android:id="@+id/ad_address"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="text" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout5"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="300dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textInputLayout4"
+        android:hint="City"
+        android:layout_centerHorizontal="true">
+
+        <EditText
+            android:id="@+id/ad_city"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout6"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="300dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textInputLayout5"
+        android:hint="Postal Code"
+        android:layout_centerHorizontal="true">
+
+        <EditText
+            android:id="@+id/ad_code"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="number" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="300dp"
+        android:id="@+id/phone"
+        android:layout_height="64dp"
+        android:layout_marginTop="10dp"
+        android:hint="Phone Number"
+        android:layout_below="@+id/textInputLayout6"
+        android:layout_centerHorizontal="true">
+
+        <EditText
+            android:id="@+id/ad_phone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="number" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/ad_add_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#ff003d"
+        android:text="@string/add_address"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

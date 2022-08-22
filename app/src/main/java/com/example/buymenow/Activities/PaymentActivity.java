@@ -3,6 +3,7 @@ package com.example.buymenow.Activities;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.location.Address;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
@@ -37,10 +38,7 @@ public class PaymentActivity extends AppCompatActivity {
         btnPay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(PaymentActivity.this , PaymentSuccess.class));
-                final MediaPlayer mp = MediaPlayer.create(getApplicationContext() , R.raw.paytune);
-                mp.start();
-                finish();
+                startActivity(new Intent(PaymentActivity.this , AddressActivity.class));
             }
         });
     }

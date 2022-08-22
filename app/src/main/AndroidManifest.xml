@@ -19,6 +19,12 @@
         android:theme="@style/Theme.BUYMENOW"
         tools:targetApi="31">
         <activity
+            android:name=".Activities.AddAddressActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.AddressActivity"
+            android:exported="true" />
+        <activity
             android:name=".Activities.PaymentSuccess"
             android:exported="true" />
         <activity

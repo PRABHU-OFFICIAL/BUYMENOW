@@ -49,4 +49,8 @@
     <string name="payment_section">Payment Section</string>
     <string name="remove_item">Remove Item</string>
     <string name="login_">Login</string>
+    <string name="create_address">Create Address</string>
+    <string name="add_address">Add Address</string>
+    <string name="continue_to_payment">Continue to payment</string>
+    <string name="pay_now">Pay Now</string>
 </resources>
